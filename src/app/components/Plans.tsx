@@ -16,24 +16,24 @@ export const Plans = () => {
         
         {/* Plano 1 */}
         <div className="h-full transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-900 shadow-md overflow-hidden">
+          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white border border-slate-200 shadow-md overflow-hidden">
             <div className="mb-5">
-              <div className="text-sky-500 dark:text-slate-200 font-semibold mb-1">NIDOAdm</div>
+              <div className="text-sky-500 font-semibold mb-1">NIDOAdm</div>
               <div className="inline-flex items-baseline mb-2">
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">R$</span>
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">35</span>
+                <span className="text-slate-900 font-bold text-3xl">R$</span>
+                <span className="text-slate-900 font-bold text-4xl">35</span>
                 <span className="text-slate-500 font-medium">/mês</span>
               </div>
               <div className="text-sm text-slate-500 mb-5">Existem várias variações disponíveis, mas a maioria sofreu.</div>
               <a
-                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 transition-colors duration-150"
                 href="#0"
               >
                 Comprar Plano
               </a>
             </div>
-            <div className="text-slate-900 dark:text-slate-200 font-medium mb-3">Inclui:</div>
-            <ul className="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+            <div className="text-slate-900 font-medium mb-3">Inclui:</div>
+            <ul className="text-slate-600 text-sm space-y-3 grow">
               <li className="flex items-center">
                 <FaCheck className="w-3 h-3 fill-sky-500 mr-3 shrink-0" />
                 <span>Textos de espaço reservado ilimitados</span>
@@ -52,24 +52,24 @@ export const Plans = () => {
 
         {/* Plano 2 */}
         <div className="h-full transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-900 shadow-md overflow-hidden">
+          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white border border-slate-200 shadow-md overflow-hidden">
             <div className="mb-5">
-              <div className="text-sky-500 dark:text-slate-200 font-semibold mb-1">NIDOImóvel</div>
+              <div className="text-sky-500 font-semibold mb-1">NIDOImóvel</div>
               <div className="inline-flex items-baseline mb-2">
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">R$</span>
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">55</span>
+                <span className="text-slate-900 font-bold text-3xl">R$</span>
+                <span className="text-slate-900 font-bold text-4xl">55</span>
                 <span className="text-slate-500 font-medium">/mês</span>
               </div>
               <div className="text-sm text-slate-500 mb-5">Existem várias variações disponíveis, mas a maioria sofreu.</div>
               <a
-                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 transition-colors duration-150"
                 href="#0"
               >
                 Comprar Plano
               </a>
             </div>
-            <div className="text-slate-900 dark:text-slate-200 font-medium mb-3">Inclui:</div>
-            <ul className="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+            <div className="text-slate-900 font-medium mb-3">Inclui:</div>
+            <ul className="text-slate-600 text-sm space-y-3 grow">
               <li className="flex items-center">
                 <FaCheck className="w-3 h-3 fill-sky-500 mr-3 shrink-0" />
                 <span>Textos de espaço reservado ilimitados</span>
@@ -92,24 +92,24 @@ export const Plans = () => {
 
         {/* Plano 3 */}
         <div className="h-full transform transition-all duration-300 hover:scale-102 hover:shadow-xl">
-          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-900 shadow-md overflow-hidden">
+          <div className="relative flex flex-col h-full p-6 rounded-lg bg-white border border-slate-200 shadow-md overflow-hidden">
             <div className="mb-5">
-              <div className="text-sky-500 dark:text-slate-200 font-semibold mb-1">Site NIDO</div>
+              <div className="text-sky-500 font-semibold mb-1">Site NIDO</div>
               <div className="inline-flex items-baseline mb-2">
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">R$</span>
-                <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl">85</span>
+                <span className="text-slate-900 font-bold text-3xl">R$</span>
+                <span className="text-slate-900 font-bold text-4xl">85</span>
                 <span className="text-slate-500 font-medium">/mês</span>
               </div>
               <div className="text-sm text-slate-500 mb-5">Existem várias variações disponíveis, mas a maioria sofreu.</div>
               <a
-                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                className="w-full inline-flex justify-center whitespace-nowrap rounded-lg bg-sky-500 px-3.5 py-2.5 text-sm font-medium text-white shadow-sm shadow-sky-950/10 hover:bg-sky-600 focus-visible:outline-none focus-visible:ring focus-visible:ring-sky-300 transition-colors duration-150"
                 href="#0"
               >
                 Comprar Plano
               </a>
             </div>
-            <div className="text-slate-900 dark:text-slate-200 font-medium mb-3">Inclui:</div>
-            <ul className="text-slate-600 dark:text-slate-400 text-sm space-y-3 grow">
+            <div className="text-slate-900 font-medium mb-3">Inclui:</div>
+            <ul className="text-slate-600 text-sm space-y-3 grow">
               <li className="flex items-center">
                 <FaCheck className="w-3 h-3 fill-sky-500 mr-3 shrink-0" />
                 <span>Textos de espaço reservado ilimitados</span>

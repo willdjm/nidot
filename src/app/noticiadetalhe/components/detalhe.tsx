@@ -44,7 +44,7 @@ export function NoticiasDetalhes() {
 
         {/* Condicional para texto, ocupa 100% se não houver imagem */}
         {hasText && (
-          <div className={`mt-2 text-gray-700 dark:text-gray-400 text-base text-justify ${hasImage ? 'w-full lg:w-1/2' : 'w-full'}`}>
+          <div className={`mt-2 text-gray-700 text-base text-justify ${hasImage ? 'w-full lg:w-1/2' : 'w-full'}`}>
             {noticia.text.split('\n').map((paragraph, index) => (
               <p key={index} className="mb-4">
                 {paragraph}
@@ -55,7 +55,7 @@ export function NoticiasDetalhes() {
       </div>
 
       {/* Data sempre embaixo, fora do bloco de texto */}
-      <span className="text-sm text-gray-500 dark:text-gray-300 mt-4 block">
+      <span className="text-sm text-gray-500 mt-4 block">
         {noticia.date}
       </span>
     </div>
