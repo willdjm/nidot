@@ -1,5 +1,6 @@
 import { Banner } from "./components/banners";
 import { Cards } from "./components/cards";
+import { FloatingButtons } from "./components/FloatingButtons";
 import { Footer } from "./components/footer";
 import { Navbar } from "./components/navbar";
 import { Plans } from "./components/Plans";
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonial/>
   <NoticesList numNotices={6} showPagination={false}  />
   <Footer/>
+  <FloatingButtons/>
 </main>
   );
 }

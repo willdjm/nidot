@@ -18,7 +18,7 @@ export function Navbar() {
           <div className="flex items-center space-x-4">
             <Link href='/'>
               <picture>
-                <img src="/logo-nido-porto.png" alt="Logo" className="h-full sm:h-24" />
+                <img src="/logo-novo2.png" alt="Logo" className="h-full sm:h-24" />
               </picture>
             </Link>
           </div>
@@ -58,7 +58,7 @@ export function Navbar() {
             <div className="flex justify-between items-center mb-6 gap-4">
               {/* Logo on the left */}
               <picture>
-                <img src="/logo-nido-porto.png" alt="Logo" className="h-full sm:h-24" />
+                <img src="/logo-novo2.png" alt="Logo" className="h-full sm:h-24" />
               </picture>
 
               {/* Close Button on the right */}

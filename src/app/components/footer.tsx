@@ -38,7 +38,7 @@ export function Footer() {
             <div>
               <Link href='/'>
                 <picture className="flex justify-center md:justify-start">
-                  <img src="/logo-footer.png" alt="" className="w-64 lg:w-full" />
+                  <img src="/logonovo.png" alt="" className="w-64 lg:w-full" />
                 </picture>
               </Link>
               <p className='mt-6 tracking-wide'>
